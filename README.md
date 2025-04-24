@@ -16,14 +16,14 @@
   The Mission logged **711 K** requests, 43 % more than the next busiest neighborhood.
 
 <p align="center">
-  <img src="Photo/chart_yearly_requests.png" alt="Yearly requests" width="45%" />
-  <img src="Photo/chart_top10_subtypes.png"  alt="Top-10 subtypes"  width="25%" />
-  <img src="Photo/chart_neighborhoods.png"   alt="Neighborhood ranking" width="25%" />
+  <img src="Photo/request_volume.png" alt="Yearly requests" width="45%" />
+  <img src="Photo/top_10_complaint_types.png.png"  alt="Top-10 subtypes"  width="25%" />
+  <img src="requests_per_thousand_residents.png"   alt="Neighborhood ranking" width="25%" />
 </p>
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Key Findings](#✨-key-findings)  
 2. [Architecture](#architecture)  
@@ -92,7 +92,7 @@ open http://localhost:3000                  # Metabase → host=postgres user=sf
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 | Path | Purpose / Notes |
 |------|-----------------|
@@ -107,7 +107,7 @@ open http://localhost:3000                  # Metabase → host=postgres user=sf
 
 ---
 
-## 🛠️ Implementation Details
+## Implementation Details
 
 1. **Snapshot download**  
    `01_data_download_and_eda.ipynb` grabs a 700 MB CSV via Socrata, converts to Parquet, performs quick EDA, and saves to `data/`.
@@ -130,7 +130,7 @@ open http://localhost:3000                  # Metabase → host=postgres user=sf
 
 ---
 
-## ➕ Future Extensions
+## Future Extensions
 
 *listed but intentionally out-of-scope for this MVP*
 
