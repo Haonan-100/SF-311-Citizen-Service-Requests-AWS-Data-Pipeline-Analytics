@@ -15,11 +15,36 @@
 - **Mission & South of Market lead by a wide margin**  
   The Mission logged **711 K** requests, 43 % more than the next busiest neighborhood.
 
-<p align="center">
-  <img src="Photo/request_volume.png" alt="Yearly requests" width="45%" />
-  <img src="Photo/top_10_complaint_types.png.png"  alt="Top-10 subtypes"  width="25%" />
-  <img src="requests_per_thousand_residents.png"   alt="Neighborhood ranking" width="25%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img
+        src="https://raw.githubusercontent.com/Haonan-100/SF311-Citizen-Service-Requests-Local-Data-Pipeline-and-Analytics/main/SF311/photo/request_volume.png"
+        alt="Yearly requests"
+        width="300"
+      />
+      <p>Yearly requests</p>
+    </td>
+    <td align="center">
+      <img
+        src="https://raw.githubusercontent.com/Haonan-100/SF311-Citizen-Service-Requests-Local-Data-Pipeline-and-Analytics/main/SF311/photo/top_10_complaint_types.png"
+        alt="Top-10 subtypes"
+        width="300"
+      />
+      <p>Top-10 subtypes</p>
+    </td>
+    <td align="center">
+      <img
+        src="https://raw.githubusercontent.com/Haonan-100/SF311-Citizen-Service-Requests-Local-Data-Pipeline-and-Analytics/main/SF311/photo/requests_per_thousand_residents.png"
+        alt="Neighborhood ranking"
+        width="300"
+      />
+      <p>Requests per thousand residents</p>
+    </td>
+  </tr>
+</table>
+
+
 
 ---
 
